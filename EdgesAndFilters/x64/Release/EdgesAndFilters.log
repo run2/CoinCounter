@@ -1,0 +1,22 @@
+﻿Build started 20/09/2013 15:00:38.
+     1>Project "O:\EdgesAndFilters\EdgesAndFilters\EdgesAndFilters\EdgesAndFilters.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\EdgesAndFilters.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IO:\EdgesAndFilters\EdgesAndFilters\/opencv/include /Zi /nologo /W3 /WX- /Od /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"O:\EdgesAndFilters\EdgesAndFilters\x64\Release\EdgesAndFilters.exe" /NOLOGO /LIBPATH:O:\EdgesAndFilters\EdgesAndFilters\/opencv/lib opencv_calib3d242.lib opencv_contrib242.lib opencv_core242.lib opencv_features2d242.lib opencv_flann242.lib opencv_gpu242.lib opencv_haartraining_engine.lib opencv_highgui242.lib opencv_imgproc242.lib opencv_legacy242.lib opencv_ml242.lib opencv_nonfree242.lib opencv_objdetect242.lib opencv_photo242.lib opencv_stitching242.lib opencv_ts242.lib opencv_video242.lib opencv_videostab242.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\EdgesAndFilters.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"O:\EdgesAndFilters\EdgesAndFilters\x64\Release\EdgesAndFilters.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"O:\EdgesAndFilters\EdgesAndFilters\x64\Release\EdgesAndFilters.lib" /MACHINE:X64 x64\Release\main.obj
+         Generating code
+         Finished generating code
+         EdgesAndFilters.vcxproj -> O:\EdgesAndFilters\EdgesAndFilters\x64\Release\EdgesAndFilters.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"O:\EdgesAndFilters\EdgesAndFilters\x64\Release\EdgesAndFilters.exe;#1" /manifest x64\Release\EdgesAndFilters.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\EdgesAndFilters.unsuccessfulbuild".
+         Touching "x64\Release\EdgesAndFilters.lastbuildstate".
+     1>Done Building Project "O:\EdgesAndFilters\EdgesAndFilters\EdgesAndFilters\EdgesAndFilters.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.12
